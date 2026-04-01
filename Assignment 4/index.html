@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Laundary</title>
+</head>
+<script src="https://kit.fontawesome.com/d0978ddd0b.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: "7z22296iZarPdoL9F",
+    });
+  })();
+</script>
+
+<body>
+  <section>
+    <nav class="navbar">
+      <div class="logo">Logo</div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <div class="user-action">
+        <a href="#" class="user-btn">Username</a>
+      </div>
+    </nav>
+  </section>
+  <section class="hero">
+    <div class="hero-container">
+
+      <div class="heading">
+        <div><span class="head1">Revitalize Your</span></div>
+        <div><span class="head2">Clothes With Experts</span></div>
+        <div><span class="head3">Laundary Services!</span></div>
+      </div>
+      <div class="para">
+        <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup
+          and rediscover the fresshness of your clothes today!</p>
+      </div>
+      <div class="service-btm">
+        <button class="service">Book a service today!</button>
+      </div>
+    </div>
+    <div class="image-holder">
+      <img class="img" src="images/machine.png" alt="">
+    </div>
+  </section>
+  <section class="stats">
+    <div class="stats-container">
+      <span class="stat-head">Our Achievements</span>
+      <div class="stat">
+        <span class="stat-value">15+</span>
+        <span class="stat-desc">Laundary Services</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">240+</span>
+        <span class="stat-desc">Happy Customers</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">2+ Yrs</span>
+        <span class="stat-desc">Experience</span>
+      </div>
+    </div>
+  </section>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laundry</title>
+  </head>
+
+  <body>
+
+    <section class="Services">
+      <div class="container">
+
+        <div class="box1">
+
+          <div class="head-box1">
+            <h1>Our Services</h1>
+            <span class="desc1">Click On The Add To Cart Button To Add The Service To Your Cart</span>
+          </div>
+
+          <hr>
+
+          <div class="items">
+
+            <div class="item">
+              <div class="left">
+                <span class="icon">👕</span>
+                <span class="n">Dry Cleaning</span>
+                <span class="price">₹200.00</span>
+              </div>
+              <div class="right">
+                <button class="btn">Add Item ➕</button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="left">
+                <span class="icon">🧺</span>
+                <span class="n">Wash & Fold</span>
+                <span class="price">₹100.00</span>
+              </div>
+              <div class="right">
+                <button class="btn">Add Item ➕</button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="left">
+                <span class="icon">🧼</span>
+                <span class="n">Ironing</span>
+                <span class="price">₹30.00</span>
+              </div>
+              <div class="right">
+                <button class="btn">Add Item ➕</button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="left">
+                <span class="icon">🩸</span>
+                <span class="n">Stain Removal</span>
+                <span class="price">₹500.00</span>
+              </div>
+              <div class="right">
+                <button class="btn">Add Item ➕</button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="left">
+                <span class="icon">🧥</span>
+                <span class="n">Leather & Suede Cleaning</span>
+                <span class="price">₹999.00</span>
+              </div>
+              <div class="right">
+                <button class="btn">Add Item ➕</button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="left">
+                <span class="icon">👗</span>
+                <span class="n">Wedding Dress Cleaning</span>
+                <span class="price">₹2800.00</span>
+              </div>
+              <div class="right">
+                <button class="btn">Add Item ➕</button>
+              </div>
+            </div>
+
+          </div>
+          <hr>
+          <div class="footer">
+            <span> ℹ️ Add the items to the cart and book now</span>
+          </div>
+
+        </div>
+
+        <div class="box2">
+          <div class="head-box2">
+            <h1>Added Item</h1>
+          </div>
+          <div class="table-container" id="box">
+            <div class="table-row header">
+              <div class="s.no">S.No</div>
+              <div class="s_name">Service Name</div>
+              <div class="sprice">Price</div>
+            </div>
+
+            <div class="table-row desc-row" id="rows">
+
+            </div>
+            <div class="total">
+              <span>Total Amount:</span><span id="Total"></span>
+            </div>
+          </div>
+        </div>
+        <div class="box3">
+          <div class="head-box3">
+            <span>Book Now</span>
+          </div>
+          <div class="forms">
+            <form>
+              <span>Full Name</span>
+              <input id="name" value="" placeholder="Eg. John Doe">
+            </form>
+          </div>
+          <div class="form2">
+            <div>
+              <span>Email Id</span>
+              <span>Phone No.</span>
+            </div>
+            <form>
+              <input type="text" id="email" placeholder="mail232@gmail.com">
+              <input type="number" id="phone" placeholder="000000000">
+            </form>
+          </div>
+          <div class="submit">
+            <button id="btn">Book Now</button>
+          </div>
+          <div class="message hidden" id="Message">
+            <span>
+              Thank you For Booking the Service We will get back to you soon!!!
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="Newsletters">
+      <div class="prom">
+
+        <div class="prom1 Laundary">
+          <div class="logo">
+            <img src="images/laundry.png" alt="">
+          </div>
+          <h2>Premium Service</h2>
+          <div class="prom-desc">
+            <p>Elevate your wardrobe with our meticulous dry cleaning,ensuring garments look and feel as good as new</p>
+          </div>
+        </div>
+        <div class="prom2 Laundary">
+          <div class="logo">
+            <img src="images/support.png" alt="">
+          </div>
+          <h2>Quick Support</h2>
+          <div class="prom-desc">
+            <p>We're committed to providing prompt solutions to ensure your experience is smooth and worry-free</p>
+          </div>
+        </div>
+        <div class="prom3 Laundary">
+          <div class="logo">
+            <img src="images/delivery-man.png" alt="">
+          </div>
+          <h2>Hassle Free Delivery</h2>
+          <div class="prom-desc">
+            <p>Enjoy seamless service with our convenient pickup and delivery options, taliored to your schedule</p>
+          </div>
+        </div>
+        <div class="prom4 Laundary">
+          <div class="logo">
+            <img src="images/affordable.png" alt="">
+          </div>
+          <h2>Affordable Prices</h2>
+          <div class="prom-desc">
+            <p>Experience exceptional care without breaking the banks - our affordable price make laundry day
+              stress-free</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subs">
+      <div class="subs-container">
+        <h1 class="subs-head">Subscibe to our newsletter.</h1>
+        <div class="input-tag">
+          <form>
+            <input type="text" name="" placeholder="Name" id="subs-name">
+            <input type="text" name="" placeholder="Email" id="subs-email">
+          </form>
+          <div class="susbtn">
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="Logo-AboutUs">
+          <div class="fhead">
+            <h1>Logo</h1>
+          </div>
+          <div class="fsecond">
+            <span class="one">About Us</span>
+            <span>Lorem, ipsum dolor.</span>
+            <span>Lorem, ipsum dolor.</span>
+          </div>
+        </div>
+        <div class="impLinks">
+          <h2>Important Links</h2>
+          <div class="Links">
+            <a href="http://">Contact Us</a>
+            <a href="http://">About us</a>
+            <a href="http://">Privacy Policy</a>
+            <a href="http://">Terms of use</a>
+            <a href="http://">Refund Policy</a>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <h2>Contact Us</h2>
+          <div class="details">
+            <span>mail@site.com</span>
+            <span>+91 9230398392</span>
+          </div>
+        </div>
+        <div class="follow">
+          <h2>Follow Us</h2>
+          <div class="ficons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script  src="emailSender.js"></script>
+  <script  src="main.js"></script>
+  </html>
+</body>
+
+</html>
